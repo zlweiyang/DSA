@@ -1,0 +1,25 @@
+﻿生成启动时间为 2018/6/10 17:34:41。
+     1>项目“E:\dsacpp\vector\Vector1\Vector1\Vector1.vcxproj”在节点 2 上(Rebuild 个目标)。
+     1>ClCompile:
+         D:\vs2013\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp"Debug\Vector1.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         D:\vs2013\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\Vector1.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Vector1.cpp
+         Vector1.cpp
+     1>e:\dsacpp\vector\vector1\vector1\vector1.cpp(14): error C2664: “std::_Vector_iterator<std::_Vector_val<std::_Simple_types<int>>> std::vector<int,std::allocator<_Ty>>::insert(std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<int>>>,unsigned int,const _Ty &)”: 无法将参数 1 从“int”转换为“std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<int>>>”
+                 with
+                 [
+                     _Ty=int
+                 ]
+                 无构造函数可以接受源类型，或构造函数重载决策不明确
+     1>e:\dsacpp\vector\vector1\vector1\vector1.cpp(15): error C2664: “std::_Vector_iterator<std::_Vector_val<std::_Simple_types<int>>> std::vector<int,std::allocator<_Ty>>::insert(std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<int>>>,unsigned int,const _Ty &)”: 无法将参数 1 从“int”转换为“std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<int>>>”
+                 with
+                 [
+                     _Ty=int
+                 ]
+                 无构造函数可以接受源类型，或构造函数重载决策不明确
+     1>e:\dsacpp\vector\vector1\vector1\vector1.cpp(17): warning C4018: “<”: 有符号/无符号不匹配
+     1>已完成生成项目“E:\dsacpp\vector\Vector1\Vector1\Vector1.vcxproj”(Rebuild 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:00.40
